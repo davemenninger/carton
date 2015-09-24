@@ -2,3 +2,4 @@ metadata.json
 .kitchen/
 .kitchen.local.yml
 Berksfile.lock
+.chef/
