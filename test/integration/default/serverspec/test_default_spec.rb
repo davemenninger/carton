@@ -16,5 +16,4 @@ describe 'Plackup Daemon' do
     re = /.*Hello, world!*/
     its(:stdout) { should match re }
   end
-
 end
