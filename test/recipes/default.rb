@@ -22,7 +22,7 @@ end
 
 carton_app 'hello-world' do
   perlbrew '5.18.4'
-  command 'starman -p 5000 foo.psgi'
+  command 'plackup -p 5000 foo.psgi'
   cwd '/srv/www'
   user 'vagrant'
   group 'vagrant'
