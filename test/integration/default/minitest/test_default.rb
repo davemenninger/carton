@@ -1,10 +1,6 @@
 require 'minitest/autorun'
 
-# describe "foobar::default" do
-#   it "has created foobar.txt" do
-#     assert File.exists?("/usr/local/foobar.txt")
-#   end
-# end
+# so, this doesn't actually do anything other than demo minitest
 
 class TestCarton < Minitest::Unit::TestCase
   def setup
