@@ -2,7 +2,7 @@ name 'carton'
 maintainer 'Dave Menninger'
 maintainer_email 'dave.menninger@gmail.com'
 license 'Apache 2.0'
-version '0.1.2'
+version '0.1.3'
 description 'Installs/Configures carton and provides a LWRP'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 recipe 'carton::default', 'Installs carton LWRP dependencies'
