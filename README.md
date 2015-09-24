@@ -7,18 +7,13 @@ Ubuntu and Debian platforms.
 Requirements
 ============
 
-The carton cookbook depends on 'perlbrew' and on a development version of
-the 'runit' cookbook.
+The carton cookbook depends on 'perlbrew' and an older version of the 'runit' cookbook.
 
 The 'perlbrew' cookbook is available from the
 [Opscode Community site](http://community.opscode.com/cookbooks/perlbrew) or from
 the [perl-chef](http://github.com/dagolden/perl-chef) git repository.
 
-The required development version of 'runit' uses a LWRP instead of a definition
-file.  See [CHEF-154](http://tickets.opscode.com/browse/CHEF-154).  This
-cookbook requires the CHEF-154 branch of my clone of the Opscode runit repository,
-available here: [https://github.com/dagolden/runit/tree/CHEF-154](https://github.com/dagolden/runit/tree/CHEF-154).
-Hopefully, these changes will be merged upstream soon.
+The 1.6.0 version of 'runit' is pinned due to [runit#142](https://github.com/hw-cookbooks/runit/issues/142).
 
 Attributes
 ==========
@@ -88,4 +83,3 @@ Usage
 
 If you wish to use the LWRP, be sure to include the `carton` recipe, which
 ensures that carton is ready for use.
-
