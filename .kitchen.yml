@@ -8,6 +8,7 @@ provisioner:
 platforms:
   - name: ubuntu-14.04
   #- name: debian-8.1
+  - name: debian-7.8
 
 suites:
   - name: default
