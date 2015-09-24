@@ -10,7 +10,7 @@ namespace :style do
 
   desc 'Run Ruby style checks'
   RuboCop::RakeTask.new(:ruby) do
-    print_header('Rake - RuboCop: Running  style checks')
+    print_header('Rake - RuboCop: Running style checks')
   end
 end
 
