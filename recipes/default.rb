@@ -19,7 +19,7 @@
 # TODO: does this belong here?
 case node['platform_family']
 when 'debian'
-    include_recipe 'apt'
+  include_recipe 'apt'
 end
 
 include_recipe 'runit'
