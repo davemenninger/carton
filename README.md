@@ -13,8 +13,6 @@ The 'perlbrew' cookbook is available from the
 [Opscode Community site](http://community.opscode.com/cookbooks/perlbrew) or from
 the [perl-chef](http://github.com/dagolden/perl-chef) git repository.
 
-The 1.6.0 version of 'runit' is pinned due to [runit#142](https://github.com/hw-cookbooks/runit/issues/142).
-
 Attributes
 ==========
 
