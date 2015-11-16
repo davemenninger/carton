@@ -10,3 +10,4 @@ supports 'debian'
 supports 'ubuntu'
 depends 'perlbrew', '>= 0.1.1'
 depends 'runit', '1.6.0' # Until #142 fixed: https://github.com/hw-cookbooks/runit/issues/142
+depends 'apt'

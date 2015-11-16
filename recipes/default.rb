@@ -16,5 +16,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# TODO: does this belong here?
+case node['platform_family']
+when 'debian'
+    include_recipe 'apt'
+end
+
 include_recipe 'runit'
 include_recipe 'perlbrew'
