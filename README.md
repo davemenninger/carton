@@ -2,7 +2,7 @@ Description
 ===========
 
 To date, this cookbook has only been designed and tested on the
-Ubuntu and Debian platforms.
+Ubuntu and Debian platforms.  Centos is provisionally working...
 
 Requirements
 ============

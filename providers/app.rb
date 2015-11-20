@@ -71,7 +71,6 @@ action :enable do
   # XXX should be idempotent
   r = runit_service new_resource.name do
     action :enable
-    directory "/etc/sv/#{new_resource.name}"
     run_template_name 'carton-app'
     log_template_name 'carton-app'
     cookbook 'carton'
