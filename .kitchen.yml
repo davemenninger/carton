@@ -9,8 +9,8 @@ platforms:
   - name: ubuntu-14.04
   #- name: debian-8.1
   - name: debian-7.8
-  #- name: centos-7.1
-  #- name: centos-6.7
+  - name: centos-7.1
+  - name: centos-6.7
   - name: centos-5.11
 
 suites:

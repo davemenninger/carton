@@ -1,17 +1,14 @@
 Description
 ===========
 
-To date, this cookbook has only been designed and tested on the
-Ubuntu and Debian platforms.  Centos is provisionally working...
+Run a [carton](https://metacpan.org/module/carton) app in a [perlbrew](http://perlbrew.pl/) perl as a [runit](http://smarden.org/runit/) service.
 
 Requirements
 ============
 
-The carton cookbook depends on 'perlbrew' and an older version of the 'runit' cookbook.
+The carton cookbook depends on the 'perlbrew' and 'runit' cookbooks.
 
-The 'perlbrew' cookbook is available from the
-[Opscode Community site](http://community.opscode.com/cookbooks/perlbrew) or from
-the [perl-chef](http://github.com/dagolden/perl-chef) git repository.
+It is tested with those dependencies from [the Chef Supermarket](https://supermarket.chef.io/).
 
 Attributes
 ==========

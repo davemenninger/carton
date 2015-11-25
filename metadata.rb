@@ -8,6 +8,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 recipe 'carton::default', 'Installs carton LWRP dependencies'
 supports 'debian'
 supports 'ubuntu'
+supports 'centos'
 depends 'perlbrew', '>= 0.1.1'
 depends 'runit'
 depends 'apt'
